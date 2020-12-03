@@ -4,10 +4,7 @@ a["temperature"] = int(a["temperature"]) - 5
 print(a["temperature"])
 print(a)
 
-if "country" in a: #способ №0
-    print(True)
-else:
-    print(False)
+print('country' in a) #способ №0
 
 print(a.get("country")) #способ №1
 
